@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:wedding_invitation_flutter/widgets/welcome.dart';
 import 'package:wedding_invitation_flutter/widgets/introduction.dart';
-import 'package:wedding_invitation_flutter/widgets/gallery.dart';
+//import 'package:wedding_invitation_flutter/widgets/gallery.dart';
 import 'package:wedding_invitation_flutter/widgets/map.dart';
 import 'package:wedding_invitation_flutter/widgets/congratulation_gift.dart';
 import 'package:wedding_invitation_flutter/widgets/credit.dart';
@@ -23,8 +23,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Welcome(),
             Introduction(),
             CustomDivider(),
-            Gallery(),
-            CustomDivider(),
+            //Gallery(),
+            //CustomDivider(),
             Map(),
             CustomDivider(),
             CongratulationGift(),

@@ -6,7 +6,7 @@ class Credit extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 30),
       child: Text(
-        "© 2021 김도진, Built with Flutter Web",
+        "© 2025 김민성, Built with Flutter Web",
         textAlign: TextAlign.center,
         style: TextStyle(fontSize: 10, color: Colors.black38),
       ),

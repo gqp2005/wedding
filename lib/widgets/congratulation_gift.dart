@@ -10,23 +10,27 @@ class CongratulationGift extends StatelessWidget {
             .showSnackBar(SnackBar(content: Text("계좌번호가 복사되었습니다"))));
   }
 
-  Widget _buildButton(BuildContext context, String receiver, accountNumber) {
-    return Container(
-      width: MediaQuery.of(context).size.width,
+  Widget _buildButton(BuildContext context, String receiver, String accountNumber) {
+    final rowWidth = MediaQuery.of(context).size.width * 0.8; // 전체 너비 대비 비율로 고정
+    return SizedBox(
+      width: rowWidth,
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           AutoSizeText(
             receiver,
             style: TextStyle(fontSize: 15),
           ),
-          SizedBox(width: 20),
-          TextButton(
+          Row(
+            children: [
+              TextButton(
               onPressed: () => onPressed(context, accountNumber),
               child: AutoSizeText(
                 accountNumber,
                 maxLines: 2,
               )),
+            ],
+          ),
         ],
       ),
     );
@@ -44,9 +48,17 @@ class CongratulationGift extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     fontSize: 20)),
             SizedBox(height: 50),
-            _buildButton(context, '신랑 김도진', '카카오뱅크 3333-04-6486265'),
+            _buildButton(context, '신랑 김민성', '신한 110-394-812984'),
             SizedBox(height: 20),
-            _buildButton(context, '신부 김채은', '카카오뱅크 3333-08-2397114'),
+            _buildButton(context, '신랑 아버지', '우리 1002-149-963648'),
+            SizedBox(height: 20),
+            _buildButton(context, '신랑 어머니', '우리 1002-649-850149'),
+            SizedBox(height: 20),
+            _buildButton(context, '신부 김수일', 'KB국민 790401-01-404123'),
+            SizedBox(height: 20),
+            _buildButton(context, '신부 아버지', '우체국 500306-02-215194'),
+            SizedBox(height: 20),
+            _buildButton(context, '신부 어머니', 'NH농협 665-12-048147'),
           ],
         ));
   }

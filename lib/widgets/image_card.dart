@@ -1,15 +1,11 @@
-// @dart=2.9
-
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
-
 import 'package:wedding_invitation_flutter/model/image.dart';
 import 'package:wedding_invitation_flutter/widgets/page_transformer.dart';
 
 class ImageCardItem extends StatelessWidget {
   ImageCardItem({
-    @required this.item,
-    @required this.pageVisibility,
+    required this.item,
+    required this.pageVisibility,
   });
 
   final ImageItem item;

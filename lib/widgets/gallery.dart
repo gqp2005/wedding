@@ -45,7 +45,8 @@ class Gallery extends StatelessWidget {
                 itemBuilder: (context, index) {
                   final item = imageItems[index];
                   final pageVisibility =
-                      visibilityResolver.resolvePageVisibility(index);
+                      visibilityResolver?.resolvePageVisibility(index) ??
+        PageVisibility(visibleFraction: 1.0, pagePosition: 0.0);
 
                   return ImageCardItem(
                     item: item,

@@ -11,7 +11,7 @@ class Welcome extends StatelessWidget {
           padding: const EdgeInsets.all(20.0),
           decoration: BoxDecoration(color: Color(0xFFFFFFFF).withOpacity(0.75)),
           child: const AutoSizeText(
-            '함께하는 첫 시작\n\n김도진\n&\n김채은',
+            '함께하는 첫 시작\n\n김민성\n&\n김수일',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 20.0),
           ),
@@ -21,7 +21,7 @@ class Welcome extends StatelessWidget {
   }
 
   Widget _buildSubtitleText(BuildContext context) {
-    final dday = DateTime(2021, 6, 19);
+    final dday = DateTime(2025, 10, 18);
     final today = DateTime.now();
     final difference = dday.difference(today).inDays;
 
@@ -30,7 +30,7 @@ class Welcome extends StatelessWidget {
     return Column(
       children: [
         Text(
-          '2021.6.19 토요일 낮 12시 30분',
+          '2025.10.18 토요일 낮 12시 30분',
           style: TextStyle(fontSize: 18),
         ),
         SizedBox(height: 10),
@@ -64,7 +64,7 @@ class Welcome extends StatelessWidget {
                   Container(
                     height: MediaQuery.of(context).size.height * 0.75,
                     child: Image.asset(
-                      'assets/images/2.jpeg',
+                      'assets/images/hand.jpg',
                       fit: BoxFit.fitWidth,
                       width: double.infinity,
                     ),
