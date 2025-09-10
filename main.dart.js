@@ -74302,7 +74302,7 @@ $0(){return this.a.af_(this.b,this.c)},
 $S:0}
 A.EU.prototype={
 O(a){var s=null
-return A.ht(A.iX("\xa9 2021 \uae40\ub3c4\uc9c4, Built with Flutter Web",s,s,s,s,s,s,s,A.iY(s,s,B.hF,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bc,s,s),B.x,s,s,B.Bf,s,s)}}
+return A.ht(A.iX("\xa9 2025 \uae40\ubbfc\uc131, Built with Flutter Web",s,s,s,s,s,s,s,A.iY(s,s,B.hF,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bc,s,s),B.x,s,s,B.Bf,s,s)}}
 A.v4.prototype={
 O(a){var s=null
 return A.ht(A.ajL("assets/images/divider.png",s,s),B.x,s,s,B.Bn,s,s)}}
@@ -74323,7 +74323,7 @@ s=t.E
 return A.ht(A.jr(A.c([B.Py,B.fV,A.d_(this.RM(),q.a.b*0.5,p.a.a*0.75),B.Kg,A.jr(A.c([B.Pw,B.Ki,A.xY(A.c([new A.vL(1,B.BD,new A.ye("\uc11c\uc6b8 \ub9c8\ud3ec\uad6c \ub9c8\ud3ec\ub300\ub85c 83",B.xn,B.bc,r),r),A.any(r,r,B.BW,r,r,new A.adE(a),r,r,"\uc8fc\uc18c \ubcf5\uc0ac")],s),B.aU,B.iZ,B.dM)],s),B.dM)],s),B.aD),B.x,r,r,B.lu,r,r)}}
 A.adF.prototype={
 $1(a){var s=document.createElement("iframe")
-s.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVpKms5coyp5-grw1P5eXgDjpJi6JRc1I&place_id:ChIJ60eAfhyZfDUR4xiU955RgF4"
+s.src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVpKms5coyp5-grw1P5eXgDjpJi6JRc1I&q=place_id:ChIJ60eAfhyZfDUR4xiU955RgF4"
 return s},
 $S:469}
 A.adE.prototype={
@@ -74337,7 +74337,7 @@ return A.Q($async$$0,r)},
 $S:24}
 A.Kn.prototype={
 O(a){var s,r,q,p,o,n=null,m=t.w,l=A.bA(a,n,m).w,k=A.bA(a,n,m).w
-k=A.ht(A.ajL("assets/images/2.jpeg",B.yp,1/0),B.x,n,k.a.b*0.75,n,n,n)
+k=A.ht(A.ajL("assets/images/hand.jpg",B.yp,1/0),B.x,n,k.a.b*0.75,n,n,n)
 s=A.d_(n,40,n)
 r=A.ayT(2025,10,18,0,0,0,0,0,!1)
 if(r==null)r=864e14
@@ -76539,7 +76539,7 @@ B.y0=new A.jn("\ucd08\ub300\ud569\ub2c8\ub2e4",B.jP,null,null,null)
 B.bc=new A.kd(2,"center")
 B.y1=new A.jn("2025\ub144 10\uc6d4 18\uc77c \ud1a0\uc694\uc77c\n\ub0ae 12\uc2dc 30\ubd84",B.jP,B.bc,null,null)
 B.jN=new A.m(!0,null,null,null,null,null,15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.y2=new A.jn("\ud48b\ud48b\ud55c 20\uc0b4, 11\uc6d4\uc5d0 \ub9cc\ub09c \uc800\ud76c\ub294 \n\ud559\uc5c5, \uad70\ub300, \uc878\uc5c5, \ucde8\uc900\uae4c\uc9c0 \n2\ub144\uc774\ub780 \uc138\uc6d4\uc744 \ud568\uaed8\ud558\uba70 \uc0ac\ub791\ud558\uace0 \uc131\uc7a5\ud574\uc654\uc2b5\ub2c8\ub2e4.\n\n\uc774\uc81c \uc800\ud76c \ub450 \uc0ac\ub78c \uc5f0\uc778\uc774 \uc544\ub2cc \n\uac00\uc871\uc73c\ub85c \uc0c8\ub85c\uc6b4 \ucd9c\ubc1c\uc744 \ud558\ub824\ud569\ub2c8\ub2e4. \n\uadc0\ud55c \uac78\uc74c\ud558\uc2dc\uc5b4 \ucd95\ubcf5\ud574 \uc8fc\uc2dc\uba74 \uac10\uc0ac\ud558\uaca0\uc2b5\ub2c8\ub2e4 \u2764",B.jN,B.bc,null,null)
+B.y2=new A.jn("\ud83e\udd55\ub2f9\uadfc\uc73c\ub85c \ub9cc\ub09c \uc6b0\ub9ac\ub294\ud83e\udd55 \n2\ub144\uc758 \uae30\uac04 \ub3d9\uc548 \uc5f0\uc560\ub97c \ud558\uba74\uc11c \ud589\ubcf5\ud588\uc5c8\uc73c\uba70 \n\uc11c\ub85c\uc758 \ub9c8\uc74c\uc774 \ub9de\uc544\n\n\uc774\uc81c \uc800\ud76c \ub450 \uc0ac\ub78c \uc5f0\uc778\uc774 \uc544\ub2cc \n\uac00\uc871\uc73c\ub85c \uc0c8\ub85c\uc6b4 \ucd9c\ubc1c\uc744 \ud558\ub824\ud569\ub2c8\ub2e4. \n\uadc0\ud55c \uac78\uc74c\ud558\uc2dc\uc5b4 \ucd95\ubcf5\ud574 \uc8fc\uc2dc\uba74 \uac10\uc0ac\ud558\uaca0\uc2b5\ub2c8\ub2e4 \u2764",B.jN,B.bc,null,null)
 B.P2=new A.m(!0,null,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.y3=new A.jn("\ud568\uaed8\ud558\ub294 \uccab \uc2dc\uc791\n\n\uae40\ubbfc\uc131\n&\n\uae40\uc218\uc77c",B.P2,B.bc,null,null)
 B.fa=s([],t.s)
