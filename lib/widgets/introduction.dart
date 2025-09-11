@@ -5,9 +5,8 @@ import 'package:auto_size_text/auto_size_text.dart';
 
 class Introduction extends StatelessWidget {
 
+
   const Introduction({super.key});
-
-
 
   Widget _buildName(String father, mother, order, name) {
     return Center(
@@ -46,7 +45,7 @@ class Introduction extends StatelessWidget {
                     fontSize: 20)),
             const SizedBox(height: 50),
             const AutoSizeText(
-             '이제 저희 두 사람 연인이 아닌 \n가족으로 새로운 출발을 하려합니다. \n귀한 걸음하시어 축복해 주시면 감사하겠습니다 ❤',
+              '아직 모든게 서툰 두 젊은이가 \n사랑이라는 이름으로 연을 맺고자 합니다. \n\n' '따스한 햇살처럼 밝고 건강하게 살아갈 앞날을 위해 \n부디 오셔서 축복과 지혜를 보내주시면 \n더없는 기쁨이자 감사로 여기며 살아가겠습니다.',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 15),
             ),
