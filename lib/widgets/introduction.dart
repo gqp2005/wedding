@@ -4,13 +4,10 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
 class Introduction extends StatelessWidget {
-  final _googleFormUrl = 'https://forms.gle/SEmgPUx1y4qyJEFj9';
 
   const Introduction({super.key});
 
-  void _launchURL() async => await canLaunch(_googleFormUrl)
-      ? await launch(_googleFormUrl)
-      : throw 'Could not launch $_googleFormUrl';
+
 
   Widget _buildName(String father, mother, order, name) {
     return Center(
@@ -49,7 +46,7 @@ class Introduction extends StatelessWidget {
                     fontSize: 20)),
             const SizedBox(height: 50),
             const AutoSizeText(
-              '🥕당근으로 만난 우리는🥕 \n2년의 기간 동안 연애를 하면서 행복했었으며 \n서로의 마음이 맞아\n\n' '이제 저희 두 사람 연인이 아닌 \n가족으로 새로운 출발을 하려합니다. \n귀한 걸음하시어 축복해 주시면 감사하겠습니다 ❤',
+             '이제 저희 두 사람 연인이 아닌 \n가족으로 새로운 출발을 하려합니다. \n귀한 걸음하시어 축복해 주시면 감사하겠습니다 ❤',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 15),
             ),

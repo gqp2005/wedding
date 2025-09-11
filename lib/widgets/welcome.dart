@@ -20,6 +20,38 @@ class Welcome extends StatelessWidget {
     );
   }
 
+  Widget _buildImageWithCenteredBox(BuildContext context) {
+    final imageHeight = MediaQuery.of(context).size.height * 0.75;
+    return Container(
+      height: imageHeight,
+      child: Stack(
+        children: [
+          Positioned.fill(
+            child: Image.asset(
+              'assets/images/hand.jpg',
+              fit: BoxFit.cover,
+              width: double.infinity,
+            ),
+          ),
+          Align(
+            alignment: Alignment.center,
+            child: Container(
+              padding: const EdgeInsets.all(20.0),
+              decoration: BoxDecoration(
+                color: Color(0xFFFFFFFF).withOpacity(0.75),
+              ),
+              child: const AutoSizeText(
+                '함께하는 첫 시작\n\n김민성\n&\n김수일',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 20.0),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildSubtitleText(BuildContext context) {
     final dday = DateTime(2025, 10, 18);
     final today = DateTime.now();
@@ -61,20 +93,12 @@ class Welcome extends StatelessWidget {
               height: MediaQuery.of(context).size.height,
               child: Column(
                 children: [
-                  Container(
-                    height: MediaQuery.of(context).size.height * 0.75,
-                    child: Image.asset(
-                      'assets/images/hand.jpg',
-                      fit: BoxFit.fitWidth,
-                      width: double.infinity,
-                    ),
-                  ),
+                  _buildImageWithCenteredBox(context),
                   SizedBox(height: 40),
                   _buildSubtitleText(context),
                 ],
               ),
             ),
-            _buildTitleText(),
             _buildBorder(context)
           ],
         ));
